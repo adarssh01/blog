@@ -3,7 +3,7 @@ layout: post
 title: "10 Things I Hate About You"
 subtitle: "because they lacked opposable thumbs and the brainpower to build a space program."
 # date: 2020-01-26 23:45:13 -0400
-background: '/img/posts/06.jpg'
+background: '/img/posts/1.svg'
 ---
 
 Artificial intelligence (AI) is a broad field of computer science and engineering focused on the creation of intelligent machines that can perform tasks that normally require human intelligence, such as understanding natural language, recognizing patterns, and learning from experience.
