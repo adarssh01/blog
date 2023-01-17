@@ -7,6 +7,7 @@ header.masthead {
     background-attachment: scroll;
     position: relative;
     background-size: cover;
+    
 
     .overlay {
         position: absolute;
@@ -25,6 +26,7 @@ header.masthead {
     .site-heading {
         padding: 200px 0 150px;
         color: white;
+        
 
         @media only screen and (min-width: 768px) {
             padding: 200px 0;
@@ -59,7 +61,9 @@ header.masthead {
 
     .post-heading {
         h1 {
-            font-size: 35px;
+            font-size: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            
         }
 
         .meta,
@@ -129,8 +133,22 @@ header.masthead {
     
 }
 
+.post-heading{
+    text-align: center;
+    margin-bottom: 48px;
+}
 
+#post-bg-height{
+    height: 390px;
+}
 
- 
+ @media screen and (max-width:768px){
+    #post-bg-height {
+        height: 270px;
+    }
+    .post-heading>span{
+        font-size: 16px;
+    }
+}
 
   
