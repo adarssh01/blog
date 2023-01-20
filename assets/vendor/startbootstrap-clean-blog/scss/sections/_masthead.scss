@@ -1,3 +1,5 @@
+
+
 // Styling for the masthead
 header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
@@ -58,7 +60,7 @@ header.masthead {
             }
         }
     }
-
+    
     .post-heading {
         h1 {
             font-size: 48px;
@@ -101,10 +103,19 @@ header.masthead {
         }
     }
 }
+h1,h2,h3,h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans';
+}
+
 .post-title{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
+
 
 
 
@@ -136,6 +147,7 @@ header.masthead {
 .post-heading{
     text-align: center;
     margin-bottom: 48px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #post-bg-height{
@@ -149,6 +161,93 @@ header.masthead {
     .post-heading>span{
         font-size: 16px;
     }
+    
 }
 
-  
+
+
+
+// blogbox
+
+.card-blog{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px 0px 5px 0px;
+    transition: all 0.3s ease;
+}
+.card-blog>a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.card-title{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    color: rgb(58, 58, 58);
+    font-size: 24px;
+    line-height: 1.3em;
+    
+}
+.post-meta{
+    margin: 4px 1px 4px 1px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(72, 72, 72, 0.899);
+}
+.card-blog:hover{
+   transform: translate(0px, -10px);
+    
+
+
+}
+
+.card{
+    border: none;
+    overflow: hidden;
+}
+
+.card-body{
+    padding: 0%;
+    margin: 5px 0 48px 0;
+}
+.card-text{
+    font-size: 14px;
+    opacity: 0.75;
+    font-family: 'Open Sans';
+    line-height: 1.4em;
+}
+
+// section-top
+
+.section-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.view-all-button{
+    background-color: #f5f6f7;
+    padding: 10px 28px;
+    
+    border-radius: 6px;
+    color: #626a72;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 12px;
+    font-size: 26px;
+    line-height: 1.4em;
+    font-weight: 600;
+}
+
+.view-all-button:hover{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+
