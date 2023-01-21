@@ -3,7 +3,7 @@ layout: post
 title: "Rotate a given rectangle array by 90 degree clockwise in Java"
 subtitle: "Given a rectangle array n×m in size. Rotate it by 90 degrees clockwise, by recording the result into the new array m×n in size."
 # date: 2020-01-26 23:45:13 -0400
-background: '/img/posts/code.jpg'
+background: '/img/posts/java.jpg'
 
 ---
 This program reads in a two-dimensional array from the user, and then creates a new array by rotating the original array by 90 degrees counterclockwise.

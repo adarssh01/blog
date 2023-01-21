@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI important questions."
+title: "List of all the AI important questions."
 subtitle: "List of AI important questions for aktu"
 # date: 2020-01-26 23:45:13 -0400
 background: '/img/posts/matrix.jpg'
