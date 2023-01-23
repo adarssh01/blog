@@ -1,20 +1,20 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+# Modern blog theme 
 
-[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+Modern blog theme is designed for use with Jekyll. Jekyll is a powerful static site generator that makes it easy to create and maintain a blog or personal website. With this theme, you'll be able to quickly set up a sleek and professional-looking blog that is fully customizable to suit your needs.
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+
 
 ## Preview
 
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
 
-**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
+
+**[View Live Preview](https://adarssh01.github.io/adarsh.github.io/)**
 
 ## Installation & Setup
 
 ### Using RubyGems
 
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
+Jekyll is built with Ruby, so you will need to have Ruby installed on your computer. You can download the latest version of Ruby from the official website. Follow the instructions below for complete setup.
 
 1. (Optional) Create a new Jekyll site: `jekyll new my-site`
 2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
@@ -50,76 +50,41 @@ Assuming there are no errors and the site is building properly, follow these ste
     background: '/PATH_TO_IMAGE'
     ---
     ```
+4. # Creating a new post
+* Create a new markdown file in the _posts directory with the naming convention YYYY-MM-DD-title.md.
+* At the top of the file, add the following front matter:
 
-4. For each post in the `_posts` directory, update the front matter. Example:
+  For each post in the `_posts` directory, update the front matter. Example:
 
     ```markdown
     ---
     layout: post
     title: "Post Title"
-    subtitle: "This is the post subtitle."
+    subtitle: "This is the post subtitle." (optional)
     date: YYYY-MM-DD HH:MM:SS
     background: '/PATH_TO_IMAGE'
     ---
     ```
+    
+* Write your post in markdown
 
-    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+    For reference, look at the [repository](https://github.com/adarssh01/adarsh.github.io) to see how the files are set up.
 
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 
-    ```html
-    <form name="sentMessage" id="contactForm" novalidate>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Phone Number</label>
-          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <br>
-      <div id="success"></div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-      </div>
-    </form>
-    ```
 
-    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
-
-6. Build your site: `bundle exec jekyll serve`
+5. Build your site: `bundle exec jekyll serve`
 
 ### Using Core Files
 
 When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
-1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+1. [Download](https://github.com/adarssh01/adarsh.github.io/archive/refs/heads/main.zip) or Clone the repository.
 2. Update the following configuration settings in your `_config.yml` file:
 
     * `baseurl`
     * `url`
     * `title`
-    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `email`
     * `description`
     * `author`
     * `twitter_username` (Optional)
@@ -132,22 +97,12 @@ When using the core files, the demo images, posts, and pages are all included wi
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+Have a bug or an issue with this template? [Open a new issue](https://github.com/adarssh01/adarsh.github.io/issues) here on GitHub!
 
 ## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+The modern blog theme is designed for use with Jekyll, a powerful static site generator that makes it easy to create and maintain a blog or personal website. With this theme, you'll be able to quickly set up a sleek and professional-looking blog that is fully customizable to suit your needs.
+The theme is built with the latest web technologies, including HTML, CSS, and JavaScript, and is fully responsive, ensuring that your site looks great on any device. 
+ Additionally, it's made with Bootstrap, a widely used open-source front-end framework, which makes it easy to customize the look and feel of your site.
 
 ## Copyright and License
 
